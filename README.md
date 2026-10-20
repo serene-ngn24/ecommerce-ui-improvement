@@ -3,6 +3,7 @@
 
 **Học phần:** Phát triển ứng dụng TMĐT  
 **Giảng viên:** TS. Nguyễn Mạnh Tuấn – tuannm@ueh.edu.vn
+**Sinh viên thực hiện**: Nguyễn Thị Diệu Thảo - 31241028196
 
 ## 1. Giới thiệu
 
