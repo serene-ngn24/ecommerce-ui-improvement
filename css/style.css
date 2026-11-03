@@ -322,7 +322,7 @@ fieldset{
             border-radius:9px;
             font-size:13px;
             font-weight:800;
-            transition:background-color .15s
+            transition:background-color .2s ease, box-shadow .2s ease, transform .2s ease
         }
         .btn-primary{
             background:#263e54;
@@ -333,7 +333,16 @@ fieldset{
             border:1.5px solid #263e54;
             color:#263e54
         }
-        .btn-secondary:hover{background:#eff4f8}
+        .btn-secondary:hover{
+            background:#e6eef5;
+            box-shadow:0 4px 12px rgba(38,62,84,.12);
+            transform:translateY(-1px)
+        }
+        .btn-secondary:focus-visible{
+            background:#e6eef5;
+            outline:3px solid #286dba;
+            outline-offset:3px
+        }
         .policy-list{
             margin-top:28px;
             border-top:1px solid var(--line)
