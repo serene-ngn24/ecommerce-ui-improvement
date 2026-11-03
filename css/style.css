@@ -448,9 +448,9 @@ fieldset{
             background:var(--wash)
         }
         .card-image img{
-            width:100%;
-            aspect-ratio:640/760;
-            object-fit:cover;
+            width:100%;               /* ảnh rộng bằng ô */
+            aspect-ratio:640/760;     /* khung luôn theo tỷ lệ 640:760 */
+            object-fit:cover;         /* ảnh lấp đầy khung, không bị méo */
             transition:transform .2s
         }
         .card-image:hover img{transform:scale(1.03)}
